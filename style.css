@@ -1,0 +1,974 @@
+/*
+ Theme Name:   fBownz 
+ Description:  It's a cross breed between my brains and the guys at Azera Shop.
+ Author:       fBownz
+ Author URI:   http://www.webonmobi.com
+ Template:     azera-shop
+ Version:      0.1
+ Text Domain:  azera-child
+*/
+
+
+/*@import url("../azera-shop/style.css");*/
+  
+  /*  I don't know what has brought you here...
+
+    Go Away Please Go far away, 
+  */
+ 
+
+/*---------------------------------------
+   1.0 GENERAL STYLES
+-----------------------------------------*/
+
+	/*
+		To reduce the margin on the home-page header from 70px to 30px
+	*/
+		.fbownz-intro-section {
+		    margin-top: 15px;
+		}
+
+
+		h1.fbownz-intro {
+			font-size: 2.00rem;
+			line-height: 2rem;
+			text-align: left;
+			font-weight: bold;
+		}
+	/*end reducing margins*/
+
+	/*start of dark header section for the header section*/
+	.fbownz-header-dark
+	{	
+		/*background-color: rgba(62,60,54,0.8);;*/
+		padding: 30px;
+	}
+
+	.fbownz-header-dark-1
+	{	
+		/*background-color: rgba(60,148,139,0.8);;*/
+		padding: 20px;
+	}
+	/*end of dark header section for the header section*/
+
+	/*start of creating my own overlay css class*/
+		.header .fbownz-overlay-layer {
+	    padding-top: 74px;
+	    padding-bottom: 90px;
+	    height: auto;
+		}
+
+	/*End of creating my own css class*/
+
+	/*start of creating my own green color for the header section*/
+		.green-text {
+		color: #3c948b;
+		}
+
+	/*end of creating my own green color for the header section*/
+
+	/* Skill Styls Starts 
+-------------------------------------- */
+.skill-container {
+  margin-top: 20px;
+  padding-bottom: 1px; }
+
+.skill {
+  height: 12px;
+  position: relative;
+  margin: -8px 0 10px 50px;
+  background-color: #F0F2F3; }
+
+.skill-percentage {
+  height: 12px;
+  position: absolute;
+  background-color: #3498db; }
+
+.skill-container i {
+  color: #FFFFFF; }
+
+.skill-container [class*="fa fa-"]:before {
+  background: #3c948b;
+  color: #FFFFFF; }
+
+.circle {
+  top: -3px;
+  width: 17px;
+  right: -3px;
+  height: 17px;
+  position: absolute;
+  display: none; }
+
+.skill-content {
+  top: -26px;
+  position: relative; }
+
+.skill-content span {
+  float: right; }
+
+.skill-container [class*="fa fa-"]:before {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding: 8px; }
+
+.percent5 {
+  width: 5%; }
+
+.percent10 {
+  width: 10%; }
+
+.percent15 {
+  width: 15%; }
+
+.percent20 {
+  width: 20%; }
+
+.percent25 {
+  width: 25%; }
+
+.percent30 {
+  width: 30%; }
+
+.percent35 {
+  width: 35%; }
+
+.percent40 {
+  width: 40%; }
+
+.percent45 {
+  width: 45%; }
+
+.percent50 {
+  width: 50%; }
+
+.percent55 {
+  width: 55%; }
+
+.percent60 {
+  width: 60%; }
+
+.percent65 {
+  width: 65%; }
+
+.percent70 {
+  width: 70%; }
+
+.percent75 {
+  width: 75%; }
+
+.percent80 {
+  width: 80%; }
+
+.percent85 {
+  width: 85%; }
+
+.percent90 {
+  width: 90%; }
+
+.percent95 {
+  width: 95%; }
+
+.percent100 {
+  width: 100%; }
+
+.percent5.start {
+  width: 0%;
+  -webkit-animation: percent5  2s ease-out forwards;
+  -moz-animation: percent5  2s ease-out forwards;
+  -ms-animation: percent5  2s ease-out forwards;
+  -o-animation: percent5  2s ease-out forwards;
+  animation: percent5  2s ease-out forwards; }
+
+.percent10.start {
+  width: 0%;
+  -webkit-animation: percent10  2s ease-out forwards;
+  -moz-animation: percent10  2s ease-out forwards;
+  -ms-animation: percent10  2s ease-out forwards;
+  -o-animation: percent10  2s ease-out forwards;
+  animation: percent10  2s ease-out forwards; }
+
+.percent15.start {
+  width: 0%;
+  -webkit-animation: percent15  2s ease-out forwards;
+  -moz-animation: percent15  2s ease-out forwards;
+  -ms-animation: percent15  2s ease-out forwards;
+  -o-animation: percent15  2s ease-out forwards;
+  animation: percent15  2s ease-out forwards; }
+
+.percent20.start {
+  width: 0%;
+  -webkit-animation: percent20  2s ease-out forwards;
+  -moz-animation: percent20  2s ease-out forwards;
+  -ms-animation: percent20  2s ease-out forwards;
+  -o-animation: percent20  2s ease-out forwards;
+  animation: percent20  2s ease-out forwards; }
+
+.percent25.start {
+  width: 0%;
+  -webkit-animation: percent25  2s ease-out forwards;
+  -moz-animation: percent25  2s ease-out forwards;
+  -ms-animation: percent25  2s ease-out forwards;
+  -o-animation: percent25  2s ease-out forwards;
+  animation: percent25  2s ease-out forwards; }
+
+.percent30.start {
+  width: 0%;
+  -webkit-animation: percent30  2s ease-out forwards;
+  -moz-animation: percent30  2s ease-out forwards;
+  -ms-animation: percent30  2s ease-out forwards;
+  -o-animation: percent30  2s ease-out forwards;
+  animation: percent30  2s ease-out forwards; }
+
+.percent35.start {
+  width: 0%;
+  -webkit-animation: percent35  2s ease-out forwards;
+  -moz-animation: percent35  2s ease-out forwards;
+  -ms-animation: percent35  2s ease-out forwards;
+  -o-animation: percent35  2s ease-out forwards;
+  animation: percent35  2s ease-out forwards; }
+
+.percent40.start {
+  width: 0%;
+  -webkit-animation: percent40  2s ease-out forwards;
+  -moz-animation: percent40  2s ease-out forwards;
+  -ms-animation: percent40  2s ease-out forwards;
+  -o-animation: percent40  2s ease-out forwards;
+  animation: percent40  2s ease-out forwards; }
+
+.percent45.start {
+  width: 0%;
+  -webkit-animation: percent45  2s ease-out forwards;
+  -moz-animation: percent45  2s ease-out forwards;
+  -ms-animation: percent45  2s ease-out forwards;
+  -o-animation: percent45  2s ease-out forwards;
+  animation: percent45  2s ease-out forwards; }
+
+.percent50.start {
+  width: 0%;
+  -webkit-animation: percent50  2s ease-out forwards;
+  -moz-animation: percent50  2s ease-out forwards;
+  -ms-animation: percent50  2s ease-out forwards;
+  -o-animation: percent50  2s ease-out forwards;
+  animation: percent50  2s ease-out forwards; }
+
+.percent55.start {
+  width: 0%;
+  -webkit-animation: percent55  2s ease-out forwards;
+  -moz-animation: percent55  2s ease-out forwards;
+  -ms-animation: percent55  2s ease-out forwards;
+  -o-animation: percent55  2s ease-out forwards;
+  animation: percent55  2s ease-out forwards; }
+
+.percent60.start {
+  width: 0%;
+  -webkit-animation: percent60  2s ease-out forwards;
+  -moz-animation: percent60  2s ease-out forwards;
+  -ms-animation: percent60  2s ease-out forwards;
+  -o-animation: percent60  2s ease-out forwards;
+  animation: percent60  2s ease-out forwards; }
+
+.percent65.start {
+  width: 0%;
+  -webkit-animation: percent65  2s ease-out forwards;
+  -moz-animation: percent65  2s ease-out forwards;
+  -ms-animation: percent65  2s ease-out forwards;
+  -o-animation: percent65  2s ease-out forwards;
+  animation: percent65  2s ease-out forwards; }
+
+.percent70.start {
+  width: 0%;
+  -webkit-animation: percent70  2s ease-out forwards;
+  -moz-animation: percent70  2s ease-out forwards;
+  -ms-animation: percent70  2s ease-out forwards;
+  -o-animation: percent70  2s ease-out forwards;
+  animation: percent70  2s ease-out forwards; }
+
+.percent75.start {
+  width: 0%;
+  -webkit-animation: percent75  2s ease-out forwards;
+  -moz-animation: percent75  2s ease-out forwards;
+  -ms-animation: percent75  2s ease-out forwards;
+  -o-animation: percent75  2s ease-out forwards;
+  animation: percent75  2s ease-out forwards; }
+
+.percent80.start {
+  width: 0%;
+  -webkit-animation: percent80  2s ease-out forwards;
+  -moz-animation: percent80  2s ease-out forwards;
+  -ms-animation: percent80  2s ease-out forwards;
+  -o-animation: percent80  2s ease-out forwards;
+  animation: percent80  2s ease-out forwards; }
+
+.percent85.start {
+  width: 0%;
+  -webkit-animation: percent85  2s ease-out forwards;
+  -moz-animation: percent85  2s ease-out forwards;
+  -ms-animation: percent85  2s ease-out forwards;
+  -o-animation: percent85  2s ease-out forwards;
+  animation: percent85  2s ease-out forwards; }
+
+.percent90.start {
+  width: 0%;
+  -webkit-animation: percent90  2s ease-out forwards;
+  -moz-animation: percent90  2s ease-out forwards;
+  -ms-animation: percent90  2s ease-out forwards;
+  -o-animation: percent90  2s ease-out forwards;
+  animation: percent90  2s ease-out forwards; }
+
+.percent95.start {
+  width: 0%;
+  -webkit-animation: percent95  2s ease-out forwards;
+  -moz-animation: percent95  2s ease-out forwards;
+  -ms-animation: percent95  2s ease-out forwards;
+  -o-animation: percent95  2s ease-out forwards;
+  animation: percent95  2s ease-out forwards; }
+
+.percent100 {
+  width: 0%;
+  -webkit-animation: percent100  2s ease-out forwards;
+  -moz-animation: percent100  2s ease-out forwards;
+  -ms-animation: percent100  2s ease-out forwards;
+  -o-animation: percent100  2s ease-out forwards;
+  animation: percent100  2s ease-out forwards; }
+
+@-moz-keyframes percent5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 5%; } }
+@-moz-keyframes percent10 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 10%; } }
+@-moz-keyframes percent15 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 15%; } }
+@-moz-keyframes percent20 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 20%; } }
+@-moz-keyframes percent25 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 25%; } }
+@-moz-keyframes percent30 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 30%; } }
+@-moz-keyframes percent35 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 35%; } }
+@-moz-keyframes percent40 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 40%; } }
+@-moz-keyframes percent45 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 45%; } }
+@-moz-keyframes percent50 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+@-moz-keyframes percent55 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 55%; } }
+@-moz-keyframes percent60 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+@-moz-keyframes percent65 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 65%; } }
+@-moz-keyframes percent70 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+@-moz-keyframes percent75 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 75%; } }
+@-moz-keyframes percent80 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+@-moz-keyframes percent85 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 85%; } }
+@-moz-keyframes percent90 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+@-moz-keyframes percent95 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 95%; } }
+@-moz-keyframes percent100 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 100%; } }
+@-webkit-keyframes percent5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 5%; } }
+@-webkit-keyframes percent10 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 10%; } }
+@-webkit-keyframes percent15 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 15%; } }
+@-webkit-keyframes percent20 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 20%; } }
+@-webkit-keyframes percent25 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 25%; } }
+@-webkit-keyframes percent30 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 30%; } }
+@-webkit-keyframes percent35 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 35%; } }
+@-webkit-keyframes percent40 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 40%; } }
+@-webkit-keyframes percent45 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 45%; } }
+@-webkit-keyframes percent50 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+@-webkit-keyframes percent55 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 55%; } }
+@-webkit-keyframes percent60 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 60%; } }
+@-webkit-keyframes percent65 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 65%; } }
+@-webkit-keyframes percent70 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+@-webkit-keyframes percent75 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 75%; } }
+@-webkit-keyframes percent80 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 80%; } }
+@-webkit-keyframes percent85 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 85%; } }
+@-webkit-keyframes percent90 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+@-webkit-keyframes percent95 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 95%; } }
+@-webkit-keyframes percent100 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 100%; } }
+/* Skill Styls Ends 
+
+
+  /*start of fbownz-buttons */
+  
+    .fbownz-button-header-left {
+      background-image: url(images/tr-btn.png);
+      background-repeat: repeat-x;
+      background-color: rgba(60,148,139,1.00);
+      background-size: contain;
+      -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .fbownz-button-header-left:hover {
+      color: #ffffff;
+      background: rgba(60,171,139,1.00);
+      text-decoration: none;
+    }
+
+    .fbownz-button-header-left:focus {
+      color: #ffffff;
+    }
+
+    .fbownz-button-header-left:active {
+      /**background: rgb(255, 255, 255) !important;*/
+      background:#FFFFFF;
+      border-color: inherit !important;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+  /*End of buttons*/
+  /*start of my own fbownz-howwework-header*/
+
+  .fbownz-howwework-header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /*Removing the signature image for order now*/
+
+  .signature{
+
+    display: none;
+  }
+/* End removing signature image for posts */
+
+  /*Start of gravity forms  CSS changes etc*/
+  body #gform_wrapper_4 .gform_body .gform_fields .gfield .gfield_label {color: #ffffff font-family: inherit;}
+  body .gform_wrapper .gform_body .gform_fields  #field_4_25.gfield .gfield_description {color: #ffffff;}
+  body #gform_wrapper_4 span.ginput_total { 
+    background-image: url(images/tr-btn.png);
+    background-repeat: repeat-x;
+    background-color: rgba(255,162,0,1.00);
+    background-size: contain;
+    -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  /*End of Gravity forms Css changes */
+  
+
+  /*Start of wmae-product-summary class*/
+    .wmae-product-summary{
+      /*width: 100%;*/
+    /*min-width: 720px;*/
+    width: 90%;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    border-radius: 4px;
+
+    }
+  /*End of wmae-product-summary class*/
+
+    /*Start of configuring azera woothemes style*/
+    .woocommerce div[itemprop="description"] {
+      margin-top: 3px;
+    }
+    /*End of configuring azera woothemes style*/
+
+/*Start of the widget sidebar */
+
+.tableContainer {
+  border: 1px solid #e2e7eb;
+  padding: 1px;
+  background: url("img/tableBottomBG.png") left bottom repeat-x;
+}
+
+div.tableCell {
+  border-right: 1px solid #616365;
+  width: 150px;
+  float: left;
+  text-align: center;
+}
+
+.pricingTableContent {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+  border-right: 1px solid #e2e7eb;
+  color: #77808a;
+}
+
+.noBorder {
+  border-right: none;
+}
+
+.tableHeading {
+  background: #008ed6 url("img/headingPattern.jpg");
+  padding-top: 1px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+}
+
+.tableHeading h2 {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.pricingTableContent tr td {
+  padding: 10px 0;
+}
+
+.pricingTableContent tr.altRow td {
+  background-color: #FFC300;
+}
+
+/* ---------- Recommended Plan Styles ---------- */
+.recommended, .tableHeading, td.recommended {
+  background: #FFC300;
+  color: #FFF;
+}
+
+div.recommended .tableHeading {
+  background: #1d53a5 url("img/recommendationBadge.png") top left no-repeat;
+  margin-top: -20px;
+  padding-top: 45px;
+}
+
+table.pricingTableContent tr.altRow td.recommended {
+  background-color: #2da89c;
+}
+
+/*End of widget sidebar*/
+
+/*.gform_wrapper .top_label .gfield_label { color: red; font-size: 18px!important; }*/
+
+ /*#gform_wrapper_5.gform_body.gform_fields.gfield.gfield_label.gfield_required{color:blue;}/*
+
+
+
+
+   /*Start of gravity forms(brenda)  CSS changes etc* contact form css*/
+
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield input[type=text] {border: 1px solid grey;width:500px;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield textarea {border: 1px solid #313131;width:500px;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield select {border: 1px solid #313131;width:500px;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield .gfield_label .gfield_required {color: #4099FF}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield input[type=text]:focus {background-color: lightgrey;}
+ body #gform_wrapper_4 .top_label .gfield_label { color: #313131; font-size: 18px!important; }
+ body #gform_wrapper_4 .gform_heading .gform_description {font-size: 20px;color: #313131;}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield .gfield_description {color:#d9534f;font-size: 14px;}
+  body #gform_wrapper_4 .gform_footer input[type=submit] {border: 1px solid #4099FF;background-color: #4099FF}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield input[type=text]:focus {background-color: lightgrey;  border: 3px solid #4099FF;}
+ body #gform_wrapper_4 .gform_body .gform_fields .gfield textarea:focus {background-color: lightgrey;  border: 3px solid #4099FF;}
+  /*End of Gravity forms contact form  Css changes */
+
+
+/*Start of gravity forms(brenda)  CSS changes etc* calculate your price sidebar forms css*/
+
+ body #gform_wrapper_2 .gform_body .gform_fields .gfield input[type=text] {border: 1px solid grey;width:300px;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_2 .gform_body .gform_fields .gfield select {border: 5px solid grey;width:300px;padding: 16px 20px;border: none;border-radius: 4px; background-color: #f1f1f1}
+ body #gform_wrapper_2 .gform_body .gform_fields .gfield .gfield_label .gfield_required {color: #4099FF}
+ body #gform_wrapper_2 .gform_body .gform_fields .gfield input[type=text]:focus {background-color: lightgrey;}
+ body #gform_wrapper_2 .gform_body .gform_fields .gfield .gfield_description {color:#d9534f;font-size: 14px;}
+ body #gform_wrapper_2 .gform_body .gform_fields .gfield input[type=text]:focus {background-color: lightgrey;  border: 3px solid #4099FF;}
+  body #gform_wrapper_2 .gform_footer input[type=submit] {border: 1px solid green;background-color: #2da89c}
+ /*body #gform_wrapper_2 .top_label .gfield_label { color: #FFA200;; font-size: 18px!important; }*/
+ 
+  /*End of Gravity forms calculate your price sidebar forms  Css changes */
+
+
+     /*Start of gravity forms(brenda)  CSS changes etc* place your order/get started form css*/
+
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=text] {border: 1px solid #313131;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield textarea {border: 1px solid #313131;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield select {border: 1px solid #313131;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield .gfield_label .gfield_required {color: #4099FF}
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=text]:focus {background-color: lightgrey;  border: 3px solid #4099FF;}
+ body #gform_wrapper_1 .gform_heading .gform_title {color: #313131;text-align:center;font-size: 25px;}
+ body #gform_wrapper_1 .gform_heading .gform_description {font-size: 20px;color: #313131;text-align:center;}
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield .gfield_description {color:#d9534f;font-size: 14px;}
+ body #gform_wrapper_1 .gform_body {border: 1px solid #313131;border-radius: 25px;padding:30px;}
+ body #gform_wrapper_1 .gform_footer input[type=submit] {border: 1px solid #4099FF;background-color: #4099FF}
+ body #gform_wrapper_1 .gform_body .gform_fields .gfield textarea:focus {background-color: lightgrey;  border: 3px solid #4099FF;}
+
+  /*End of Gravity forms place your order/get started form  Css changes */
+
+
+
+     /*Start of gravity forms(brenda)  CSS changes etc* calculate your price from frontpage form css*/
+ body #gform_wrapper_3 .gform_body .gform_fields .gfield input[type=text] {}
+ body #gform_wrapper_3 .gform_body .gform_fields .gfield textarea {border: 1px solid #4099FF;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;}
+ body #gform_wrapper_3 .gform_body .gform_fields .gfield select {}
+ body #gform_wrapper_3 .gform_body .gform_fields .gfield .gfield_label .gfield_required {color: #4099FF}
+ body #gform_wrapper_3 .gform_body .gform_fields .gfield input[type=text]:focus {background-color: lightgrey;}
+ body #gform_wrapper_3 .gform_body .gform_fields .gfield .gfield_description {font-size: 14px;}
+ body #gform_wrapper_3 .gform_footer input[type=submit] {border: 1px solid #4099FF;background-color: #4099FF}
+ 
+
+  /*End of Gravity forms calculate your price from frontpage Css changes */
+
+
+  /*testimonial example css code here*/
+.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+.carousel-control.left {left:-25px;}
+.carousel-control.right {right:-25px;}
+.broun-block {
+    background: url("") repeat scroll center top rgba(0, 0, 0, 0);
+    padding-bottom: 34px;
+}
+.block-text {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #2c2222;
+    color: #626262;
+    font-size: 14px;
+    margin-top: 27px;
+    padding: 15px 18px;
+}
+.block-text a {
+ color: #7d4702;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 21px;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.mark {
+    padding: 12px 0;background:none;
+}
+.block-text p {
+    color: #585858;
+    font-family: Georgia;
+    font-style: italic;
+    line-height: 20px;
+}
+.sprite {
+  background-image: url('');
+}
+.sprite-i-triangle {
+    background-position: 0 -1298px;
+    height: 44px;
+    width: 50px;
+}
+.block-text ins {
+    bottom: -44px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.block {
+    display: block;
+}
+.zmin {
+    z-index: 1;
+}
+.ab {
+    position: absolute;
+}
+
+.person-text {
+    padding: 10px 0 0;
+    text-align: center;
+    z-index: 2;
+}
+.person-text a {
+    color: #ffcc00;
+    display: block;
+    font-s
+}ize: 14px;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+.person-text i {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.rel {
+    position: relative;
+
+
+
+
+  
+  /*end  of testimonial code here*/
+
+
+  /*---------------------------------------
+   4. DEFAULT COLORS
+-----------------------------------------*/
+
+/* PRELOADER IMAGE BACKGROUND */
+.status {
+  background-image: url(images/loader-blue.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* THE OVERLAY COLORS WHICH WILL SHOW IN FRONT OF BACKGROUND IMAGES*/
+.overlay-layer-wrap {
+  /*background: rgba(0, 0, 0, 0.1);*/
+  background: rgba(255, 0, 0, 0.45);
+}
+
+.overlay-layer-2 {
+  background: rgba(0, 5, 8, 0.90);
+}
+
+/* NAVBAR AND LINK COLORS */
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  color: #4099FF;
+}
+
+a {
+  color: #4099FF;
+}
+
+a:hover {
+  color:#4099FF;
+}
+
+.border-bottom-hover:hover {
+  border-bottom-color: #4099FF;
+}
+
+.sticky-navigation .main-navigation li a:hover,
+.sticky-navigation .login-register li.login a:hover {
+  color: #4099FF;
+  text-decoration: none;
+}
+
+.sticky-navigation .main-navigation li.current > a {
+  color: #4099FF;
+}
+
+/* INPUT FIXES */
+.input-box:active,
+.textarea-box:active,
+.input-box:focus,
+.textarea-box:focus {
+  border-color: #4099FF;
+}
+
+/* BUTTONS*/
+.no-link{
+  color: #4099FF;
+}
+
+.standard-button,
+.navbar-register-button {
+  background-image: url(images/tr-btn.png);
+  background-repeat: repeat-x;
+  background-color: #4099FF;
+  background-size: contain;
+  -webkit-box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.standard-button:hover,
+.navbar-register-button:hover {
+  color: #ffffff;
+  background: #4099FF;
+  text-decoration: none;
+}
+
+.standard-button:focus,
+.navbar-register-button:focus {
+  color: #ffffff;
+}
+
+.standard-button:active,
+.navbar-register-button:active {
+  background: #4099FF !important;
+  border-color: inherit !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* COLORED BACKGROUND AND TEXT*/
+.color-bg {
+  background: #4099FF;
+}
+
+.colored-text {
+  color: #4099FF;
+}
+
+/* COLORED BORDERS AND LINES */
+.colored-line-left,
+.colored-line-right,
+.colored-line {
+  background: #4099FF;
+}
+
+.border-right-colored {
+  border-right: 1px solid rgba(0, 142, 214, 0.3);
+}
+
+.border-left-colored {
+  border-left: 1px solid rgba(0, 142, 214, 0.3);
+}
+
+.long-transparent-line {
+  height: 1px;
+  width: 200px;
+  background: rgba(0, 142, 214, 0.3);
+  margin: auto;
+}
+
+/* --------------------------------------
